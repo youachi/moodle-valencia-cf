@@ -47,8 +47,17 @@ scripts/moodle-helpers.js       Funciones para automatizar formularios de Moodle
 scripts/01-usuarios-y-curso.js  Creación de usuarios, curso y matriculación
 preguntas-gift/*.gift           Bancos de preguntas de los cinco cuestionarios (formato GIFT)
 docs/rubrica.md                 Rúbrica y ponderación de las actividades
-backup/                         Copia de seguridad del curso (.mbz)
+backup/curso-valencia-cf.mbz    Copia de seguridad del curso (.mbz)
+scripts/moodle-cli/             Script PHP que crea el curso completo desde la línea de comandos
+web/                            Versión web estática del curso (publicada en Vercel)
 ```
+
+## Versión web
+
+La carpeta `web/` es una copia estática del curso tal como lo ve el alumno Kevin, lista para
+publicarse en Vercel (directorio raíz del proyecto: `web`). Se puede navegar por los temas, las páginas,
+los vídeos, el foro, el glosario, las tareas con su rúbrica y las preguntas de los cuestionarios.
+Al ser estática no guarda respuestas ni entregas.
 
 ## Reproducción
 
